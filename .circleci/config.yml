@@ -2,11 +2,6 @@ version: 2.1
 orbs:
   python: circleci/python@1.2
 
-workflows:
-  sample: 
-    jobs:
-      - build-and-test
-
 jobs:
   build-and-test:
     docker:
